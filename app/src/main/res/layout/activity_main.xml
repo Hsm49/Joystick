@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/vertical_bar"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#dddddd">
+
+        <ImageView
+            android:id="@+id/square_vertical"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="#ff0000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/horizontal_bar"
+        android:layout_width="0dp"
+        android:layout_height="162dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#dddddd">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:background="#000000" />
+
+        <ImageView
+            android:id="@+id/square_horizontal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="#ff0000" />
+    </RelativeLayout>
+</LinearLayout>
